@@ -127,9 +127,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 114
-      width: 102
-      height: 102
-    spriteID: 576c49b43f30c7e4a94f4c283e1c59d9
+      width: 1
+      height: 1
+    spriteID: f5857938f1be6b7429e7c2a82ff77ae3
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -137,8 +137,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 114}
-    spritePosition: {x: 0, y: 0}
+    uvTransform: {x: 3, y: 113}
+    spritePosition: {x: 13, y: 85}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -192,8 +192,8 @@ ScriptedImporter:
     spriteName: night
     isGroup: 0
     parentIndex: -1
-    spriteID: 576c49b43f30c7e4a94f4c283e1c59d9
-    layerID: 54
+    spriteID: f5857938f1be6b7429e7c2a82ff77ae3
+    layerID: 61
     mosaicPosition: {x: 4, y: 114}
     flatten: 0
     isImported: 1

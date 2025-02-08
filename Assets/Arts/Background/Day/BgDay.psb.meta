@@ -105,7 +105,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 511
       y: 931
-      width: 185
+      width: 181
       height: 363
     spriteID: 52455ed806fa7d546a2553d5011ad076
     spriteBone: []
@@ -193,7 +193,7 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 1347
-      width: 274
+      width: 244
       height: 143
     spriteID: c12bba64912c17e4db06a0a432086cf0
     spriteBone: []
@@ -270,7 +270,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 700, y: 1217}
-    spritePosition: {x: 421, y: 982}
+    spritePosition: {x: 980, y: 818}
   - name: day_value_ref
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -281,9 +281,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 758
       y: 1217
-      width: 28
-      height: 42
-    spriteID: 14daf8a9c566df34499377b415390d86
+      width: 1
+      height: 1
+    spriteID: 1130d18138fe19745b76f0412c98db6a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -292,7 +292,7 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 758, y: 1217}
-    spritePosition: {x: 425, y: 966}
+    spritePosition: {x: 960, y: 538}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -436,12 +436,22 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
+  - name: day_value_ref copy
+    spriteName: 
+    isGroup: 0
+    parentIndex: -1
+    spriteID: cafa0147c094b1a4eb858ed80b5c1168
+    layerID: 69
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 0
   - name: day_value_ref
     spriteName: day_value_ref
     isGroup: 0
     parentIndex: -1
-    spriteID: 14daf8a9c566df34499377b415390d86
-    layerID: 60
+    spriteID: 1130d18138fe19745b76f0412c98db6a
+    layerID: 68
     mosaicPosition: {x: 758, y: 1217}
     flatten: 0
     isImported: 1
