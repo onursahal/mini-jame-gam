@@ -95,7 +95,7 @@ ScriptedImporter:
     spritePosition: {x: 0, y: 0}
   multiSpriteImportData: []
   layeredSpriteImportData:
-  - name: Layer 4
+  - name: wing_front
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -104,10 +104,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 360
-      width: 46
-      height: 44
-    spriteID: 6267e2c494ba6cf4e9d1081297e89199
+      y: 140
+      width: 165
+      height: 77
+    spriteID: 58c049c65fc29d448a9fb167e505a902
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -115,53 +115,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 360}
-    spritePosition: {x: 115, y: 86}
-  - name: Layer 1
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 141
-      width: 221
-      height: 112
-    spriteID: dde4e4976c45a6640a648cd39539538b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 141}
-    spritePosition: {x: 0, y: 50}
-  - name: Layer 3
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    customData: 
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 412
-      width: 0
-      height: 0
-    spriteID: 3e1c97bbf59130742b762909082f4eaf
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 412}
-    spritePosition: {x: 0, y: 162}
-  - name: Layer 2
+    uvTransform: {x: 4, y: 140}
+    spritePosition: {x: 0, y: 85}
+  - name: body
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -172,8 +128,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 201
-      height: 129
-    spriteID: b23958c902c680a41979a2dd33df5759
+      height: 128
+    spriteID: 1829f2a9010263c4ab34780be9a5645a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -182,8 +138,8 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 52, y: 18}
-  - name: Vehicle
+    spritePosition: {x: 52, y: 19}
+  - name: wing_back
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -192,10 +148,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 261
-      width: 81
-      height: 91
-    spriteID: 1bf5f6ff45ab4d8418a48c76b5b9066c
+      y: 225
+      width: 106
+      height: 102
+    spriteID: 49c1d5437e406a6468309a1385d84eee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -203,8 +159,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 261}
-    spritePosition: {x: 197, y: 0}
+    uvTransform: {x: 4, y: 225}
+    spritePosition: {x: 161, y: 0}
   spriteImportData: []
   rigSpriteImportData: []
   sharedRigSpriteImportData: []
@@ -268,53 +224,33 @@ ScriptedImporter:
   resliceFromLayer: 0
   pSDLayerImportSetting: []
   psdLayers:
-  - name: Layer 4
-    spriteName: Layer 4
+  - name: wing_front
+    spriteName: wing_front
     isGroup: 0
     parentIndex: -1
-    spriteID: 6267e2c494ba6cf4e9d1081297e89199
-    layerID: 61
-    mosaicPosition: {x: 4, y: 360}
-    flatten: 0
-    isImported: 1
-    isVisible: 0
-  - name: Layer 1
-    spriteName: Layer 1
-    isGroup: 0
-    parentIndex: -1
-    spriteID: dde4e4976c45a6640a648cd39539538b
+    spriteID: 58c049c65fc29d448a9fb167e505a902
     layerID: 56
-    mosaicPosition: {x: 4, y: 141}
+    mosaicPosition: {x: 4, y: 140}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: Layer 3
-    spriteName: Layer 3
+  - name: body
+    spriteName: body
     isGroup: 0
     parentIndex: -1
-    spriteID: 3e1c97bbf59130742b762909082f4eaf
-    layerID: 58
-    mosaicPosition: {x: 4, y: 412}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
-  - name: Layer 2
-    spriteName: Layer 2
-    isGroup: 0
-    parentIndex: -1
-    spriteID: b23958c902c680a41979a2dd33df5759
+    spriteID: 1829f2a9010263c4ab34780be9a5645a
     layerID: 57
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
-    isVisible: 0
-  - name: Vehicle
-    spriteName: Vehicle
+    isVisible: 1
+  - name: wing_back
+    spriteName: wing_back
     isGroup: 0
     parentIndex: -1
-    spriteID: 1bf5f6ff45ab4d8418a48c76b5b9066c
+    spriteID: 49c1d5437e406a6468309a1385d84eee
     layerID: 18
-    mosaicPosition: {x: 4, y: 261}
+    mosaicPosition: {x: 4, y: 225}
     flatten: 0
     isImported: 1
     isVisible: 1
